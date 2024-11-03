@@ -1,3 +1,4 @@
+
 from rich.console import Console
 from rich.text import Text
 import pyfiglet
@@ -41,6 +42,7 @@ if opzione == 1:
     interface = str(input("Write your interface (first turn on monitor mode): "))
     comandd = ["mdk3", interface, "b"]
     subprocess.run(comandd)
+    print("Go in your phone and check all the fake wifi crated, ENJOY")
 if opzione == 2:
     interface = input("Write your interface (first turn on monitor mode): ")
     comando = ["airodump-ng", interface]
